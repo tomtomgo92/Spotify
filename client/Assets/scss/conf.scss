@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$MyGrey: #222;
+
+body{
+  background-color: $MyGrey;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.app{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.main-wrapper {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+  z-index: 1;
+  min-height: 100vh;
+}
+
+.box1{
+  height: 100%;
+    width: 49%;
+    float: left;
+}
+
+img{
+  margin: 0 auto;
+  text-align: center;
+  width: 75%;
+margin:0 auto;
+}
+
+.box2{
+  height: 500px;
+  width: 49%;
+  float: right;
+  display:flex;
+}
+.box-in{
+  margin:auto;
+}
+.background {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center center;
+  filter: blur(3em) opacity(0.9);
+  position: absolute;
+}
+
